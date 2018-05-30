@@ -141,6 +141,16 @@ button {
     float: left;
 }
 
+h4:hover {
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    0% { background: rgb(231, 231, 231); }
+    50% { background: rgb(104, 208, 226); }
+    100% { background: rgb(34, 139, 165); }
+  }
+
 .portfolio-img.project1 {
     background-image: url("../images/logo.jpg");
     background-position-y: 60%;
